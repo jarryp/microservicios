@@ -1001,3 +1001,454 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-01-04 19:40:39,232 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-01-04 19:40:39,236 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-04 19:40:39,237 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:17:31,155 [Worker-200: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.formacionbdi.springboot.app.item:springboot-servicio-item:0.0.1-SNAPSHOT @ C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\pom.xml.
+2020-01-04 20:17:36,659 [Worker-200: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+2020-01-04 20:17:37,744 [Worker-200: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+2020-01-04 20:17:44,780 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:44,785 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:17:44,786 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:17:44,791 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:44,791 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:17:44,792 [Worker-200: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-item
+2020-01-04 20:17:44,792 [Worker-200: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-item
+2020-01-04 20:17:44,801 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:44,914 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.1.4.RELEASE/spring-cloud-starter-netflix-ribbon-2.1.4.RELEASE-sources.jar
+2020-01-04 20:17:44,934 [Worker-205: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.1.4.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:sources:2.1.4.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2020-01-04 20:17:45,029 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.1.4.RELEASE/spring-cloud-starter-netflix-archaius-2.1.4.RELEASE-sources.jar
+2020-01-04 20:17:45,044 [Worker-205: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.1.4.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:sources:2.1.4.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2020-01-04 20:17:45,135 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0-sources.jar
+2020-01-04 20:17:45,385 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0-sources.jar
+2020-01-04 20:17:45,653 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon:2.3.0
+2020-01-04 20:17:45,751 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0-sources.jar
+2020-01-04 20:17:46,014 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0-sources.jar
+2020-01-04 20:17:46,194 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-transport:2.3.0
+2020-01-04 20:17:46,318 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9-sources.jar
+2020-01-04 20:17:46,709 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9-sources.jar
+2020-01-04 20:17:47,736 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxnetty-contexts:0.4.9
+2020-01-04 20:17:47,822 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9-sources.jar
+2020-01-04 20:17:48,027 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9-sources.jar
+2020-01-04 20:17:48,391 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxnetty-servo:0.4.9
+2020-01-04 20:17:48,477 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar
+2020-01-04 20:17:48,806 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:48,809 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:17:48,836 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:17:48,841 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:48,841 [Worker-200: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:17:48,841 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar
+2020-01-04 20:17:49,265 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.reactivex:rxnetty:0.4.9
+2020-01-04 20:17:49,360 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar
+2020-01-04 20:17:49,991 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar
+2020-01-04 20:17:50,179 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:16.0.1
+2020-01-04 20:17:50,268 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar
+2020-01-04 20:17:50,508 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar
+2020-01-04 20:17:50,849 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-core:2.3.0
+2020-01-04 20:17:50,946 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0-sources.jar
+2020-01-04 20:17:51,169 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0-sources.jar
+2020-01-04 20:17:51,349 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-httpclient:2.3.0
+2020-01-04 20:17:51,441 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10-sources.jar
+2020-01-04 20:17:51,827 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10-sources.jar
+2020-01-04 20:17:52,051 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.5.10
+2020-01-04 20:17:52,162 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-sources.jar
+2020-01-04 20:17:52,444 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-sources.jar
+2020-01-04 20:17:52,633 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.4.12
+2020-01-04 20:17:52,804 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1-javadoc.jar
+2020-01-04 20:17:53,045 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1-javadoc.jar
+2020-01-04 20:17:53,300 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for com.sun.jersey:jersey-client:1.19.1
+2020-01-04 20:17:53,385 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1-sources.jar
+2020-01-04 20:17:53,515 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1-sources.jar
+2020-01-04 20:17:54,057 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey.contribs:jersey-apache-client4:1.19.1
+2020-01-04 20:17:54,159 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21-sources.jar
+2020-01-04 20:17:54,298 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21-sources.jar
+2020-01-04 20:17:54,529 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.servo:servo-core:0.12.21
+2020-01-04 20:17:54,611 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0-sources.jar
+2020-01-04 20:17:54,843 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0-sources.jar
+2020-01-04 20:17:55,205 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.netflix-commons:netflix-commons-util:0.3.0
+2020-01-04 20:17:55,296 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar
+2020-01-04 20:17:55,466 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar
+2020-01-04 20:17:55,641 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.ribbon:ribbon-loadbalancer:2.3.0
+2020-01-04 20:17:55,727 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar
+2020-01-04 20:17:55,936 [Worker-205: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar
+2020-01-04 20:17:56,205 [Worker-205: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.netflix.netflix-commons:netflix-statistics:0.1.1
+2020-01-04 20:17:57,009 [Worker-207: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:57,010 [Worker-207: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:17:57,010 [Worker-207: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:17:57,014 [Worker-207: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:57,014 [Worker-207: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:17:58,103 [Worker-200: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.1.4.RELEASE/spring-cloud-starter-netflix-ribbon-2.1.4.RELEASE-javadoc.jar
+2020-01-04 20:17:58,218 [Worker-200: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.1.4.RELEASE/spring-cloud-starter-netflix-ribbon-2.1.4.RELEASE-javadoc.jar
+2020-01-04 20:17:58,430 [Worker-200: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.1.4.RELEASE
+2020-01-04 20:17:58,520 [Worker-200: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.1.4.RELEASE/spring-cloud-starter-netflix-archaius-2.1.4.RELEASE-javadoc.jar
+2020-01-04 20:17:58,553 [Worker-200: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.1.4.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:javadoc:2.1.4.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.11.0.20190220-2119.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2020-01-04 20:17:59,223 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:59,223 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:17:59,224 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:17:59,226 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:17:59,226 [Worker-208: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:20:41,070 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:20:41,075 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:20:41,106 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:20:41,111 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:20:41,112 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:23:36,656 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:23:36,659 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:23:36,665 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:23:36,670 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:23:36,670 [Worker-211: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:27:26,306 [Worker-213: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:27:26,307 [Worker-213: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:27:26,311 [Worker-213: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:27:26,317 [Worker-213: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:27:26,317 [Worker-213: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:30:24,182 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:30:24,183 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:30:24,184 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:30:24,189 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:30:24,190 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:30:24,533 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:30:24,533 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:30:24,534 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:30:24,537 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:30:24,537 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:30:25,573 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:30:25,574 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:30:25,575 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:30:25,579 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:30:25,579 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:31:36,455 [Worker-218: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:31:36,456 [Worker-218: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:31:36,457 [Worker-218: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:31:36,462 [Worker-218: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:31:36,462 [Worker-218: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:32:02,318 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:32:02,319 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:32:02,319 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:32:02,324 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:32:02,324 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:32:07,897 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:32:07,898 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:32:07,898 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:32:07,902 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:32:07,902 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:32:40,916 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:32:40,917 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:32:40,921 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:32:40,925 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:32:40,925 [Worker-216: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:41:22,039 [Worker-229: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-item
+2020-01-04 20:41:22,095 [Worker-229: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-productos
+2020-01-04 20:41:23,041 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:23,042 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:41:23,047 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:41:23,053 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:23,053 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:41:23,054 [Worker-228: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-item
+2020-01-04 20:41:23,054 [Worker-228: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-item
+2020-01-04 20:41:23,066 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:23,937 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:23,938 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:41:23,942 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:41:24,004 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:24,005 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:41:24,006 [Worker-228: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-productos
+2020-01-04 20:41:24,006 [Worker-228: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-productos
+2020-01-04 20:41:24,015 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:41,442 [Worker-221: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-04 20:41:43,078 [Worker-221: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.formacionbdi.springboot.app.item:springboot-servicio-item:0.0.1-SNAPSHOT @ C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\pom.xml.
+2020-01-04 20:41:44,260 [Worker-221: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.formaciondbi.springboot.app.productos:springboot-servicio-productos:0.0.1-SNAPSHOT @ C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\pom.xml.
+2020-01-04 20:41:48,090 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-item/src/main/java
+2020-01-04 20:41:48,090 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-item/src/main/resources
+2020-01-04 20:41:48,091 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-item/src/main/resources
+2020-01-04 20:41:48,092 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-item/src/test/java
+2020-01-04 20:41:48,819 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-productos/src/main/java
+2020-01-04 20:41:48,819 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-productos/src/main/resources
+2020-01-04 20:41:48,820 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-productos/src/main/resources
+2020-01-04 20:41:48,821 [Worker-221: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-productos/src/test/java
+2020-01-04 20:41:49,440 [Worker-221: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-item
+2020-01-04 20:41:49,497 [Worker-221: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-productos
+2020-01-04 20:41:49,506 [Worker-221: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2020-01-04 20:41:52,258 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:52,259 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:41:52,280 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:41:52,283 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:52,284 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:41:52,284 [Worker-226: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-item
+2020-01-04 20:41:52,284 [Worker-226: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-item
+2020-01-04 20:41:52,291 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:53,660 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:53,661 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:41:53,664 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 20:41:53,679 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:41:53,679 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:41:53,679 [Worker-226: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-productos
+2020-01-04 20:41:53,680 [Worker-226: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-productos
+2020-01-04 20:41:53,685 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:43:19,497 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:43:19,499 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:43:19,500 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:43:19,502 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:43:19,503 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:43:33,864 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:43:33,865 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:43:33,865 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:43:33,868 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:43:33,868 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:44:14,086 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:14,087 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:14,087 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:14,092 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:14,093 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:44:18,599 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:18,600 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:18,600 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:18,603 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:18,603 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:44:34,713 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:34,714 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:34,715 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:34,720 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:34,721 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:44:37,098 [Worker-221: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:37,099 [Worker-221: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:37,099 [Worker-221: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:37,103 [Worker-221: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:37,104 [Worker-221: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:44:38,151 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:38,152 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:38,152 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:38,155 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:38,155 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:44:55,059 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:55,061 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:55,061 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:44:55,065 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:44:55,065 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:45:25,051 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:45:25,052 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:45:25,053 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:45:25,059 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:45:25,060 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:45:37,620 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:45:37,621 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:45:37,621 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:45:37,624 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:45:37,624 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 20:48:45,883 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:48:45,884 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:48:45,885 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:48:45,889 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:48:45,889 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 20:48:53,987 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:48:53,988 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:48:53,988 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 20:48:53,993 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 20:48:53,993 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:04:47,888 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:04:47,888 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:04:47,893 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:04:47,897 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:04:47,897 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:05:08,528 [Worker-219: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-item
+2020-01-04 21:05:08,578 [Worker-219: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-productos
+2020-01-04 21:05:09,743 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:05:09,744 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:05:09,749 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:05:09,754 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:05:09,754 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:05:09,755 [Worker-219: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-item
+2020-01-04 21:05:09,755 [Worker-219: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-item
+2020-01-04 21:05:09,762 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:05:10,430 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:05:10,431 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:05:10,435 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:05:10,447 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:05:10,448 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:05:10,448 [Worker-219: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-productos
+2020-01-04 21:05:10,448 [Worker-219: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-productos
+2020-01-04 21:05:10,454 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:02,982 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:02,983 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:02,984 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:02,988 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:02,989 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:06:16,730 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:16,730 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:16,731 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:16,734 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:16,734 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:06:39,724 [Worker-247: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:39,724 [Worker-247: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:39,725 [Worker-247: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:39,730 [Worker-247: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:39,730 [Worker-247: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:06:42,025 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:42,026 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:42,026 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:42,030 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:42,030 [Worker-248: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:06:43,135 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:43,136 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:43,136 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:06:43,139 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:06:43,139 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:07:00,067 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:07:00,067 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:07:00,068 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:07:00,073 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:07:00,073 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:07:28,274 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:07:28,275 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:07:28,275 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:07:28,280 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:07:28,280 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:07:34,796 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:07:34,796 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:07:34,797 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:07:34,801 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:07:34,801 [Worker-244: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:08:15,502 [Worker-249: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:15,504 [Worker-249: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:15,504 [Worker-249: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:15,509 [Worker-249: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:15,509 [Worker-249: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:08:21,578 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:21,578 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:21,578 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:21,582 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:21,582 [Worker-219: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:08:22,663 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:22,664 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:22,665 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:22,668 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:22,668 [Worker-252: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:08:31,367 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:31,367 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:31,368 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:08:31,371 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:08:31,371 [Worker-251: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:20:55,214 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:20:55,215 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:20:55,220 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:20:55,225 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:20:55,225 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:21:00,129 [Worker-257: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-item
+2020-01-04 21:21:00,185 [Worker-257: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for springboot-servicio-productos
+2020-01-04 21:21:01,203 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:01,204 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:21:01,209 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:01,214 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:01,214 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:21:01,215 [Worker-254: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-item
+2020-01-04 21:21:01,215 [Worker-254: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-item
+2020-01-04 21:21:01,223 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:02,012 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:02,013 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:21:02,017 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-04 21:21:02,031 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:02,032 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:21:02,032 [Worker-254: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of springboot-servicio-productos
+2020-01-04 21:21:02,033 [Worker-254: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for springboot-servicio-productos
+2020-01-04 21:21:02,042 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:12,748 [Worker-255: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:12,749 [Worker-255: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:12,749 [Worker-255: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:12,753 [Worker-255: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:12,754 [Worker-255: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:21:14,529 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:14,530 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:14,531 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:14,536 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:14,536 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:21:15,614 [Worker-259: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:15,615 [Worker-259: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:15,615 [Worker-259: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:15,618 [Worker-259: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:15,618 [Worker-259: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:21:34,164 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:34,165 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:34,166 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:21:34,170 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:21:34,171 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:22:08,641 [Worker-256: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:08,642 [Worker-256: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:08,643 [Worker-256: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:08,647 [Worker-256: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:08,647 [Worker-256: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:22:16,252 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:16,253 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:16,253 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:16,258 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:16,258 [Worker-254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:22:39,515 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:39,515 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:39,516 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:39,521 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:39,521 [Worker-257: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:22:42,552 [Worker-258: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:42,553 [Worker-258: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:42,553 [Worker-258: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:42,556 [Worker-258: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:42,556 [Worker-258: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-productos\src\test\resources
+2020-01-04 21:22:43,585 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:43,585 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:43,585 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-04 21:22:43,588 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:43,588 [Worker-250: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jarry.palacios\Documents\Desarrollo\Cursos\AreasTrabajo\Area02\springboot-servicio-item\src\test\resources
+2020-01-04 21:22:46,079 [Worker-256: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-04 21:22:46,079 [Worker-256: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
