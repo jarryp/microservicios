@@ -3,7 +3,8 @@ package com.formacionbdi.springboot.app.item.models;
 public class Item {
 
 		private Producto producto;
-		private Integer cantidad;
+		private Integer cantidad = 0;
+		private Double subTotal = 0.00;
 		
 		public Producto getProducto() {
 			return producto;
@@ -18,16 +19,32 @@ public class Item {
 			this.cantidad = cantidad;
 		}
 		
-		public Double getSubTotal() {
-			return this.producto.getPrecio() * this.cantidad.doubleValue();
+		
+		public void setSubTotal(Double subTotal) {
+			this.subTotal = subTotal;
 		}
+		
+		public Double getSubTotal() {
+			
+			if(this.producto != null)
+				subTotal = this.producto.getPrecio() * this.cantidad;
+			
+			if(this.producto==null)
+				subTotal = 0.00;
+			
+			return subTotal;
+		}
+
 		public Item(Producto producto, Integer cantidad) {
 			super();
 			this.producto = producto;
 			this.cantidad = cantidad;
+			this.subTotal = 0.00;
 		}
+		
+		
 		public Item() {
-			super();
+			
 		}
 		
 		
